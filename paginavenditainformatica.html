@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Orari Museo</title>
+  <style>
+    body{
+        background-color: azure;
+        padding:20px;
+    }
+    h1{
+        color: red;
+        text-align: center;
+        
+    }
+    h2{
+        color: rgb(182, 70, 18);
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .day-off {
+      background-color: #e74c3c;
+      color: white;
+    }
+    .info, .form-section {
+      background-color: #e8f6f3;
+      padding: 15px;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .gallery img {
+      max-width: 30%;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 150px;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      align-self: center;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+
+
+  </style>
+  </head>
+  <body>
+    <h1><em><strong>Benvenuto sulla piattaforma di Vendita Informatica!</strong></em></h1>
+    <h2><em>Qui troverai tutto ciò che fa per te nell'ambito dell'informatica.</em></h2>
+    <br>
+    <h1><em>Chi siamo?</em></h1>
+    <p><em>Siamo un gruppo di ragazzi, che hanno un'unico sogno, ovvero quello di entrare nel mondo del mercato, grazie alla nostra passione, ovvero l'<strong>Informatica.</strong><br>Siamo nati circa due anni fa, sulla nostra pagina cerchiamo di trasmettere tutto ciò che l'informatica può generare e insegnare.</em></p>
+    <h1>Cosa proponiamo?</h1>
+    <p><em>Sulla nostra pagina troverai molte cose interessanti,come:<strong><br> 1)La vendita di prodotti informatici <br> 2)La spiegazione dei dettagli di un singolo prodotto <br> 3)Il consiglio degli esperti sul relativo prodotto.</strong></em></p>
+    <p><em>Quello che cerchiamo di proporti sono molte novità nel campo dell'informatica, utili per la vita di tutti i giorni, anche ad un costo <strong>notevolmente più basso rispetto alla media</em></strong></p>
+    
+    <h2><em><strong>I nostri orari di apertura nel nostro store ufficiale:</strong></em></h2>
+    <table>
+        <thead>
+          <tr>
+            <th>Giorno</th>
+            <th>APERTURA</th>
+            <th>CHIUSURA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="day-off">Lunedì</td><td colspan="4" class="day-off">Chiuso</td></tr>
+          <tr><td>Martedì</td><td>09:00</td><td>17:00</td>
+          <tr><td class="day-off">Mercoledì</td><td colspan="4" class="day-off">Chiuso</td></tr>
+          <tr><td>Giovedì</td><td>10:00</td><td>18:00</td></tr>
+          <tr><td>Venerdì</td><td>09:30</td><td>17:30</td></tr>
+          <tr><td>Sabato</td><td>09:00</td><td>19:00</td></tr>
+          <tr><td>Domenica</td><td>10:00</td><td>16:00</td></tr>
+
+        </tbody>
+      </table>
+
+      <p><em>Dopo averti illustrato i nostri orari di apertura/chiusura, non vediamo l'ora di mostrarti ciò che abbiamo per te!</em></p>
+      <h1>Computer da gaming</h1>
+      <div style="text-align: center;">
+        <a href="https://www.flashmac.com/pc-gaming-assemblato-intel-i3-4-core-rtx-4060-8gb-32gb-ram-1-5tb-bianco-windows-11-nuovo/" target="_blank">
+          <img src="https://i0.wp.com/www.flashmac.com/wp-content/uploads/2024/12/deepcool-cc360-wh.webp?fit=608%2C760&ssl=1" alt="PCGAMING" width="300">
+        </a>
+      </div>
+      <p><em>Questo computer da gaming, è uno dei migliori in circolazione nel mercato delle apparecchiature relative all'uso dei Personal Computer.<br>Questo computer conferisce all'utente un'esperienza comoda, rilassante e dando anche un pò di vitalità in giornate NO grazie alle qualità grandissime che presenta all'interno</em></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Componenti</th>
+            <th>Descrizione</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Modello</td><td>Pc gaming assemblato by flashmac.com</td></tr>
+          <tr><td>Case</td><td>DEEPCOOL CC360 WH ARGB</tr>
+          <tr><td>Scheda madre</td>a<td>BIOSTAR PRO B760M DDR4 Socket LGA 1700 WiFi Formato ATX</td></tr>
+          <tr><td>Processore</td><td>Intel Core i3-12100f 4 core / 8 thread @ 3.30Ghz – Max Boost 4,30 Ghz. Dissipatore ad aria Intel Laminar stock</td></tr>
+          <tr><td>Alimentatore</td><td>MSI 600W 80 Plus</td></tr>
+          <tr><td>Ram installata</td><td>32GB DDR4-3600 T-FORCE VULCAN Ram massima	128 GB</tr>
+          <tr><td>Sistema Operativo</td><td>Windows 11 Home MAR</tr>
+          <tr><td>Periferiche</td><td>3x DisplayPort +  1x HDMI + 4x USB 3.0, 2x USB 2.0, 1x Ethernet 1 Gbit +3 jack 3.5 mm, 1x USB-C 3.1. Frontali: 1x USB 2, 1x USB 3, 2x Jack audio, Bluetooth 5, WiFi 6 integrati.</td></tr>
+
+        </tbody>
+    </table>
+    <p><em>Per le altre descrizioni, il prezzo e il modo per ordinare, clicca sull'immagine e ti verrà mostrato tutto l'occorrente.</em></p>
+
+    <h2><strong><em>Video illustrativo</em></strong></h2>
+    <div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e3cghA4qjjw?si=sIvaCpDkIgzW7xzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <h1>Gli altri prodotti da noi venduti qui sotto!</h1>
+    <p><em>Da notare la <strong>Disponibilità</strong> nel caso si volesse acquistare quel determinato prodotto o Qualora non ci fosse lasciare un commento nel riquadro in fondo alla pagina.<br><strong>GRAZIE</strong></em></p>
+    <table>
+    <thead>
+        <tr>
+          <th>Prodotto</th>
+          <th>Prezzo</th>
+          <th>Disponibilità</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Iphone 15</td><td>729,00 €</td><td>SI</td></tr>
+        <tr><td>Iphone 16T</td><td>1200,00 €<td>NO</td></tr>
+        <tr><td>Tablet Samsung</td>a<td>250,00 €<td>SI</td></tr>
+        <tr><td>TV Smart 55px LG</td><td>499,00 €<td>SI</td></tr>
+        <tr><td>Redmi note 13 pro 5G</td><td>300,00 €<td>SI</td></tr>
+        <tr><td>Impianto stereo</td><td>89,00 €<td>NO</td></tr>
+        <tr><td>Mouse e tastiera(Bundle)</td><td>49,00 €<td>SI</td></tr>
+        <tr><td>Cuffie gaming</td><td>39,00 €</td><td>SI</td></tr>
+</tbody>
+</table>
+
+<h2><em>I nostri contatti:</em></h2>
+<p>Numero telefono: 06-5647-7685<br>Email: paginawebinformatica@gemail.com <br> Numero telefono spedizioni: 04-6474-3377</p>
+
+<p><em>Qui sotto ti lasciamo la sezione per inserire un commento per ordini o richieste sui nostri prodotti</em></p>
+
+<div class="form-section">
+    <h2>Prenota o Lascia un Commento</h2>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" required="">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required="">
+      <label for="message">Messaggio:</label>
+      <textarea id="message" rows="4" required=""></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </div>
+
+  <h2><em>Grazie per aver visitato la nostra pagina, ti attendiamo con ansia!!!</em></h2>
+  
+  </body>
+  </html>
